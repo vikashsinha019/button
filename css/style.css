@@ -63,10 +63,10 @@ body{
      left:0;
      z-index: -1;
      border-radius: 100px;
-     transition: all .4s;
+     transition: all .9s;
 }
 .btn-white::after{
-  background-color: pink;
+  background-color: #fff;
 }
 .btn:hover::after{
   transform: scaleY(1.4) scaleX(1.6);
