@@ -1,0 +1,65 @@
+.title{
+    background-color: yellowgreen;
+    padding: 15rem 0;
+}
+h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.8;
+    font-size: 50px;
+    margin-bottom: 20px;
+    transition: all .9s;
+}
+h2:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 25px 40px rgb(0, 0, 0, .8);
+}
+p{
+    color: black;
+}
+
+.img1{
+   width: 55%;
+   position: absolute;
+   top: -20px;
+   left: 0;
+   
+   
+}
+.img1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 40px rgb(0, 0, 0, .8);
+    z-index: 1;
+    transition: all .6s;
+    outline: 15px solid #fff;
+    outline-offset: 20px;
+}
+.img2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 40px rgb(0, 0, 0, .8);
+    z-index: 1;
+    transition: all .6s;
+    outline: 15px solid #fff;
+    outline-offset: 20px;
+}
+.img3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 40px rgb(0, 0, 0, .8);
+    z-index: 1;
+    transition: all .6s;
+    outline: 15px solid #fff;
+    outline-offset: 20px;
+}
+.img2{
+   width: 55%;
+   position: absolute;
+   top: 20px;
+   right: 0;
+}
+.img3{
+   width: 55%;
+   position: absolute;
+   top: 100px;
+   left: 20%;
+}
