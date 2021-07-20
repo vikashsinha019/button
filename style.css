@@ -2,6 +2,9 @@
     background-color: yellowgreen;
     padding: 15rem 0;
 }
+body{
+    padding: 30px;
+}
 h2{
     color: #fff;
     text-transform: uppercase;
@@ -62,4 +65,49 @@ p{
    position: absolute;
    top: 100px;
    left: 20%;
+}
+
+/* About Section */
+
+.about{
+    padding: 4% 14%;
+    background-color: yellowgreen;
+    color: #fff;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+h3:hover{
+     transform: skewY(13deg);
+}
+.icon{
+    margin-bottom: 20px;
+    color: purple;
+    transition: all .5s;
+}
+.icon:hover{
+    color: tomato;
+    transform: scale(2);
+}
+
+/* Tour section */
+
+.tour{
+   
+}
+
+.tour-heading{
+   padding: 3% 0 7% 0; 
+}
+
+h4{
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #7ef567, #44d128);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
 }
